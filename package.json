@@ -1,6 +1,6 @@
 {
   "name": "@chimpwizard-pipeline/npm-build",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Build NPM Package",
   "main": "index.js",
   "scripts": {
