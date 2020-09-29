@@ -1,0 +1,9 @@
+name: chimpwizards-npm-build
+description: Build NPM Package
+author: ndru@chimpeizard.com
+branding:
+  icon: 'box'  
+  color: 'red'
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'

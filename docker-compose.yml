@@ -1,0 +1,7 @@
+version: '3'
+services:            
+    action:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: 'chimpwizards/pipeline-npm-build'
