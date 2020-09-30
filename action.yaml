@@ -6,4 +6,5 @@ branding:
   color: 'red'
 runs: 
   using: 'docker'
-  image: 'Dockerfile'
+  image: docker://chimpwizards/pipeline-npm-build:latest        
+  #image: 'Dockerfile'
