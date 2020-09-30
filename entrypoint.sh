@@ -1,6 +1,6 @@
 #!/bin/sh -l
-ls -la
 
+# ls -la
 # npm config ls
 # npm config ls -l
 
@@ -12,3 +12,4 @@ echo "*** BUILDING"
 echo "******************"
 npm install
 npm run build
+ls -la
