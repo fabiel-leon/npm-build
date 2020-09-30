@@ -5,7 +5,7 @@
 # npm config ls -l
 
 echo "NPM  version: $(npm -v)"
-echo "NDOE version: $(node -v)"
+echo "NODE version: $(node -v)"
 
 echo "******************"
 echo "*** BUILDING"

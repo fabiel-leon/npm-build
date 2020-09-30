@@ -1,7 +1,15 @@
-version: '3'
+version: '3.3'
 services:            
     action:
         build:
             context: .
             dockerfile: Dockerfile
+            labels:
+                com.github.actions.name: "NPM Build"
+                com.github.actions.description: "Build an npm package"
+                com.github.actions.icon: "mic"
+                com.github.actions.color: "purple"
+                repository: "http://github.com/chimpwizards-pipeline/npm-build"
+                homepage: "http://github.com/marketplace/chimpwizards"
+                maintainer: "ndru@chimpwizard.com"
         image: 'chimpwizards/pipeline-npm-build'
