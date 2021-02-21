@@ -7,9 +7,14 @@
 echo "NPM  version: $(npm -v)"
 echo "NODE version: $(node -v)"
 
-echo "******************"
-echo "*** BUILDING"
-echo "******************"
-npm install
+echo "::group:: Installing"
+npm ci
+echo "::endgroup::"
+
+echo "::group:: Building"
 npm run build
-ls -la
+echo "::endgroup::"
+
+echo "::group:: Installing Production"
+npm ci --production
+echo "::endgroup::"
