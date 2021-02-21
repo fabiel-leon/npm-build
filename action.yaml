@@ -1,10 +1,9 @@
-name: chimpwizards-npm-build
+name: npm-build
 description: Build NPM Package
 author: ndru@chimpeizard.com
 branding:
   icon: 'box'  
   color: 'red'
 runs: 
-  using: 'docker'
-  image: docker://chimpwizards/pipeline-npm-build:latest        
-  #image: 'Dockerfile'
+  using: docker
+  image: Dockerfile
