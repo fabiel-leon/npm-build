@@ -1,6 +1,6 @@
 FROM  docker:stable
 
-RUN apk add npm nodejs
+RUN apk add npm nodejs git
 
 ADD entrypoint.sh /entrypoint.sh
 
